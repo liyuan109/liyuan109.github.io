@@ -1,0 +1,91 @@
+body {
+  background: #282E38;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}
+
+
+
+#sidebar-wrapper {
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #26272B;
+}
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding-left: 300px;
+    color: #6DC1CE;
+}
+
+#page-content-wrapper > p{
+    width: 100%;
+    /*position: absolute;*/
+    font-size: 20px;
+    color: #6DC1CE;
+}
+.myImage{
+  width:150px;
+  height:150px;
+  margin-left: 50px;
+}
+.userProfile {
+}
+.userName {
+  padding-top: 10px;
+  margin-left: 92px;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 20px;
+}
+.userTitle {
+  padding-top:5px;
+  margin-left: 60px;
+  color:  #cce6ff;
+  font-family: monospace;
+  font-size: 15px;
+}
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 270px;
+}
+
+.sidebar-nav li {
+    /*margin-top: 50px;*/
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2)
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}

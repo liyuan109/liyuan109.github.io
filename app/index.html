@@ -1,0 +1,35 @@
+<html ng-app="blogApp">
+	<head>
+		<title> Home </title>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="app.css"/>
+	</head>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="tabble-list/app.js"></script>
+<body>
+	<div ng-controller="TabbleListController" >
+	<div id="sidebar-wrapper">
+	  <img src="images/ly.png" class="myImage">
+	    <div class="userProfile">
+	      <div class="userName">
+	        Yuan Li
+	      </div>
+	      <div class="userTitle">
+	        Software Engineer
+	      </div>
+	    </div>
+			  <ul class="sidebar-nav">
+			    <li ng-repeat="tab in tabLists">
+			      <a href="#" ng-controller="Simple"
+						ng-click="showTab(tab.name)">{{tab.name}}</a>
+			    <li>
+			  </ul>
+    </div>
+		<div id="page-content-wrapper">
+				<h1>{{tabName}}</h1>
+				<p>{{info}}</p>
+			</li>
+		</div>
+	</div>
+</body>
+</html>
