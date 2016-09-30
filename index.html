@@ -18,18 +18,17 @@
 	        Software Engineer
 	      </div>
 	    </div>
-			  <ul class="sidebar-nav">
+			<ul class="sidebar-nav">
 			    <li ng-repeat="tab in tabLists">
-			      <a href="#" ng-controller="Simple"
+			        <a href="#" ng-controller="Simple"
 						ng-click="showTab(tab.name)">{{tab.name}}</a>
-			    <li>
-			  </ul>
-    </div>
-		<div id="page-content-wrapper">
-				<h1>{{tabName}}</h1>
-				<p>{{info}}</p>
-			</li>
-		</div>
+			    </li>
+			</ul>
+        </div>
+	</div>
+	<div id="page-content-wrapper">
+		<h1>{{tabName}}</h1>
+		<p>{{info}}</p>
 	</div>
 </body>
 </html>

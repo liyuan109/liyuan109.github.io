@@ -19,7 +19,7 @@ h1 {
 }
 #page-content-wrapper {
     width: 100%;
-    position: absolute;
+    position: fixed;
     padding-left: 300px;
     color: #6DC1CE;
 }
