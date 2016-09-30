@@ -26,7 +26,7 @@ h1 {
 
 #page-content-wrapper > p{
     width: 100%;
-    /*position: absolute;*/
+    position: relative;
     font-size: 20px;
     color: #6DC1CE;
 }
@@ -89,3 +89,5 @@ h1 {
     font-size: 18px;
     line-height: 60px;
 }
+
+
