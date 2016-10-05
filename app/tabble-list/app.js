@@ -13,6 +13,9 @@ function TabbleListController($scope) {
     },
     {
       name: 'GitHub',
+    },
+    {
+      name: 'Current Project'
     }
   ];
 });
@@ -44,7 +47,10 @@ blogApp.controller('Simple', ['$rootScope', function ($rootScope) {
       else if(tabName == 'GitHub'){
         $rootScope.tabName = 'GitHub'
         $rootScope.info = 'https://github.com/liyuan109'
-
+      }
+      else if(tabName == 'Current Project'){
+        $rootScope.tabName = 'Current Project'
+        $rootScope.info = 'https://liyuan109.github.io/angularReviewApp'
       }
     }
 }]);
