@@ -22,6 +22,15 @@ function TabbleListController($scope) {
     }
   ];
 });
+var digitalData = {
+  test: "value",
+  cart: {
+    cartID: "123",
+    price: {
+      cartTotal: "18"
+    }
+  }
+}
 blogApp.controller('Simple', ['$rootScope', function ($rootScope) {
     $rootScope.tabName = 'Personal Info'
     $rootScope.info = 'My name is Yuan Li.' + ' People Call me Nate.' +
