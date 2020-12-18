@@ -10,40 +10,32 @@
 <body>
 	<script type="text/javascript">
 	var digitalData = {
-    example: "value",
-    cart: {
-        cartID: "306702397",
-        price: {
-            cartTotal: "72.59",
-            voucherCode: "",
-            voucherDiscount: "0"
-        },
-        item: [
-            {
-                quantity: "1",
-                price: {
-                    basePrice: "2.97"
-                },
-                productInfo: {
-                    sku: "10008761",
-                    productName: "Green Widget",
-                    fulfillmentMethod: "shipped"
-                }
-            },
-            {
-                quantity: "3",
-                price: {
-                    basePrice: "36.94"
-                },
-                productInfo: {
-                    sku: "20464228",
-                    productName: "Blue Widget",
-                    fulfillmentMethod: "pick up in store",
-                    fulfillmentStore: "101"
-                }
-            }
-        ]
-    }
+   cart: {
+       favoriteBrands: [ "Nike", "Old Navy" ],
+       item: [
+           {
+               quantity: "1",
+               price: "2.97",
+               productInfo: {
+                   sku: "10008761",
+                   productName: "Green Widget",
+                   fulfillmentMethod: "shipped",
+                   colors: [ "green", "black" ]
+               }
+           },
+           {
+               quantity: "3",
+               price: "36.94",
+               productInfo: {
+                   sku: "20464228",
+                   productName: "Blue Widget",
+                   fulfillmentMethod: "pick up in store",
+                   fulfillmentStore: "101",
+                   colors: [ "blue", "white" ]
+               }
+           }
+       ]
+   }
 }
 
 	  _satellite.track("search-ste", { search_keyword: "hello", search_results: 1 });
